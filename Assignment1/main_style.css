@@ -1,0 +1,109 @@
+@media screen and (min-width:961px){  
+    body, .header, .navigation, .footer,
+    ul, p, ul, li {
+        background: #f9f3e9;
+        color: #594846;
+        font: 100% "Adobe Caslon Pro",
+        "Georgia", "Times New Roman", serif;
+        margin: auto;
+        width: 100%;
+    }
+    .header, .navigation, .footer{
+        clear: float;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+    }
+    .column{
+        margin: 10px 1.04% 0 0;
+    }
+    .navigation{
+        min-height: 25px;
+    }
+    .navigation ul li{
+        width: 33.33%;
+    }
+    .header{
+        background: url("images/responsive.png");
+        height: 200px;
+    }
+    img, object{
+        max-width: 100%;
+    }
+    .mainheader{
+        border-top: dotted #594846;
+        border-bottom: dotted #594846;
+    }
+    #column1{
+        width: 25%;
+        float: left;
+    }
+    #column3{
+        width: 25%;
+        float: right;
+    }
+    #column2{
+        margin: 10px 27.08% 0 26.04%;
+        width: 460px;
+    }
+    .navigation ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    li {
+        float: left;
+    }
+
+    li a {
+        display: block;
+        margin-left: 33%;
+    }
+}
+@media screen and (max-width:960px){
+    body, .header, .footer, .navigation,
+    ul, p{
+        background: #f9f3e9;
+        color: #594846;
+        font: 100% "Adobe Caslon Pro",
+        "Georgia", "Times New Roman", serif;
+        width: 100%;
+        margin: auto;
+    }
+    #column1, #column3, #column2{
+        width: 100%;
+    }
+    .column{
+        margin: 10px;
+        border-bottom: 1px dashed black;
+    }
+    .mainheader{
+        border-top: dotted #594846;
+        border-bottom: dotted #594846;
+    }
+    .navigation ul li{
+        width: 33.3333%;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .navigation ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .navigation li {
+        float: left;
+    }
+
+    .navigation li a {
+        display: block;
+        margin-left: 33.33%
+    }
+}

@@ -1,0 +1,173 @@
+@media screen and (max-width:480px){
+    body, .header, .footer, .navigation,
+    ul, p{
+        background: #f9f3e9;
+        color: #594846;
+        font: 100% "Adobe Caslon Pro",
+        "Georgia", "Times New Roman", serif;
+        width: 100%;
+        margin: auto;
+    }
+    #column1, #column3, #column2{
+        width: 100%;
+    }
+    .column{
+        margin: 10px;
+        border-bottom: 1px dashed black;
+    }
+    .mainheader{
+        border-top: dotted #594846;
+        border-bottom: dotted #594846;
+    }
+    .navigation ul li{
+        width: 33.3333%;
+    }
+
+    h1{
+        font-size: 28px;
+        text-align: center;
+    }
+
+    .navigation ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+    }
+    .navigation li {
+        float: left;
+    }
+
+    .navigation li a {
+        display: block;
+        margin-left: 33.33%
+    }
+}
+
+
+
+
+
+@media screen and (min-width:481px){  
+    body, .header, .navigation, .footer,
+    ul, p, ul, li {
+
+        color: #4d4d4f;
+        font: 100% "Adobe Caslon Pro",
+        "Georgia", "Times New Roman", serif;
+        margin: auto;
+        width: 100%;
+    }
+    body{
+        background: url("images/mbackground.jpg") no-repeat;
+                
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+    .header, .navigation, .footer{
+        clear: float;
+    }
+    h1{
+        width: 100%;
+        text-align: center;
+        color: white;
+    }
+    .skilllevel{
+        background-color: #4da6ff;
+    }
+    .column{
+        margin: 10px 10px 10px 10px;
+    }
+    .navigation{
+        min-height: 25px;
+    }
+    img, object{
+        max-width: 100%;
+    }
+    .header{
+        background: url("images/hrdarkblue.jpg");
+        border-top: dotted #594846;
+        border-bottom: dotted #594846;
+        color: whitesmoke;
+    }
+    #column1{
+        background: url("images/level3.png")no-repeat;
+        background-size: 100% 100%;
+        float: left;
+        height: 500px;
+        width: 45%;
+    }
+    .levelContainer{
+        height: 100%;
+        width: 50%;
+    }
+    #skilllevel5{
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #skilllevel4{
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #skilllevel3{
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #skilllevel2{
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #skilllevel1{
+        background-size: 50px 50px;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 12%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #pipelevel1{
+        background: url("images/modpipe.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        height: 25%;
+        margin-left: 2px;
+        bottom: 0px;
+        width: 100%;
+    }
+    #column2{
+        background: url("images/level4.jpg")no-repeat;
+        background-size: 100% 100%;
+        float: right;
+        height: 500px;
+        width: 45%;
+    }
+    .listContainer{
+        height: 100%;
+        width: 50%;
+        float: right;
+    }
+
+
+}
